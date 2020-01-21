@@ -1,0 +1,89 @@
+<BNList xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+ <TransMode>только номера</TransMode>
+ <SprDenoms>
+  <SprDenom year="1997" modify="2001" denomid="1320" value="100"/>
+  <SprDenom year="1997" modify="2010" denomid="1353" value="500"/>
+  <SprDenom year="1997" modify="1997" denomid="1339" value="5000"/>
+ </SprDenoms>
+ <SprQualities>
+  <SprQuality qualityId="1" qualityName="bad"/>
+  <SprQuality qualityId="2" qualityName="normal"/>
+  <SprQuality qualityId="3" qualityName="good"/>
+ </SprQualities>
+ <Totals>
+  <TotalFit>0</TotalFit>
+  <TotalUnfit>0</TotalUnfit>
+  <TotalShred>6</TotalShred>
+  <TotalReject>0</TotalReject>
+ </Totals>
+ <SSMS>
+  <SSM ssmName="Оператор">
+   <USER>
+    <NOMINAL did="0">
+     <Quality qualityName="normal">
+      <Outpck oid="1">
+       <AU st="27121992413" et="27121992420" id="271219924130">
+        <B r="-" u="-" s="-"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="3">
+     <Quality qualityName="normal">
+      <Outpck oid="1">
+       <AU st="27121993340" et="27121993347" id="271219933400">
+        <B r="-" u="-" s="-"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="3">
+     <Quality qualityName="normal">
+      <Outpck oid="1">
+       <AU st="27121993845" et="27121993852" id="271219938450">
+        <B r="-" u="-" s="-"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="3">
+     <Quality qualityName="normal">
+      <Outpck oid="1">
+       <AU st="27121995744" et="27121995751" id="271219957440">
+        <B r="-" u="-" s="-"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="3">
+     <Quality qualityName="normal">
+      <Outpck oid="1">
+       <AU st="27121910118" et="27121910125" id="271219101180">
+        <B r="-" u="-" s="-"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="3">
+     <Quality qualityName="normal">
+      <Outpck oid="1">
+       <AU st="27121910610" et="27121910617" id="271219106100">
+        <B r="-" u="-" s="-"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+   </USER>
+  </SSM>
+ </SSMS>
+</BNList>

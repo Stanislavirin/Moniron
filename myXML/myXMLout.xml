@@ -1,0 +1,7 @@
+<Accounts>
+ <Account ID="0" Rights="Админ" Password_Hash="Superkong" Login="Kingkong"/>
+ <Account ID="1" Rights="Оператор" Password_Hash="12345" Login="Kosta"/>
+ <Account ID="2" Rights="Оператор" Password_Hash="qwerty" Login="Petr"/>
+ <Account ID="3" Rights="Админ" Password_Hash="123" Login="Админ"/>
+ <Account ID="4" Rights="Оператор" Password_Hash="321" Login="Оператор"/>
+</Accounts>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BNList xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+  <TransMode> только номера</TransMode>           <!-- Режим передачи : полный или только номера -->(С этими полями понятно)
+  <SprDenoms>         <!-- Справочник номиналов --> 
+    <SprDenom denomid="1" value="5000" year="2005" modify="NO"></SprDenom>
+    <SprDenom denomid="2" value="1000" year="2002" modify="NO"></SprDenom>
+    <SprDenom denomid="3" value="500" year="1997" modify="NO"></SprDenom>
+  </SprDenoms>
+
+  <SprQualities>      <!--Справочник категорий качества  -->   (что это такое?  )
+    <SprQuality qualityId="1" qualityName="bad"></SprQuality>
+    <SprQuality qualityId="2" qualityName="normal"></SprQuality>
+    <SprQuality qualityId="3" qualityName="good"></SprQuality>
+
+  </SprQualities> (С этими полями понятно)
+  <Totals>      <!--Справочник категорий качества -->
+    <TotalFit>1</TotalFit>
+    <TotalUnfit>0</TotalUnfit>
+    <TotalShred>0</TotalShred>
+    <TotalReject>2</TotalReject>
+  </Totals>
+  <SSMS>                        <!--"ССМ"  --> 
+    <SSM ssmName="Алекс"> 
+      <USER>
+        <NOMINAL did="1">             <!--"Номинал" -->
+          <Quality qualityName="normal">    <!--"Категория банкнот" --> 
+            <Outpck oid="1">                        <!--"Выходная” -->
+              <AU st="str" id="1" et="str">   (что означают эти атрибуты?  Описывают единицу сверки)
+                <B s="str" u="str" r="str"></B>   (что означают эти атрибуты? – тоже какое-то отношение к единице сверки)
+              </AU>
+            </Outpck>
+
+          </Quality>
+        </NOMINAL>
+
+      </USER>
+
+    </SSM>
+
+<SSM ssmName="Паша"> 
+      <USER>
+        <NOMINAL did="1">             <!--"Номинал" -->
+          <Quality qualityName="normal">    <!--"Категория банкнот" --> 
+            <Outpck oid="1">                        <!--"Выходная” -->
+              <AU st="str" id="1" et="str">   (что означают эти атрибуты?  Описывают единицу сверки)
+                <B s="str" u="str" r="str"></B>   (что означают эти атрибуты? – тоже какое-то отношение к единице сверки)
+              </AU>
+            </Outpck>
+
+          </Quality>
+        </NOMINAL>
+
+      </USER>
+
+	USER>
+        <NOMINAL did="2">             <!--"Номинал" -->
+          <Quality qualityName="bad">    <!--"Категория банкнот" --> 
+            <Outpck oid="1">                        <!--"Выходная” -->
+              <AU st="str" id="1" et="str">   (что означают эти атрибуты?  Описывают единицу сверки)
+                <B s="str" u="str" r="str"></B>   (что означают эти атрибуты? – тоже какое-то отношение к единице сверки)
+              </AU>
+            </Outpck>
+
+          </Quality>
+
+	<Quality qualityName="normal">    <!--"Категория банкнот" --> 
+            <Outpck oid="2">                        <!--"Выходная” -->
+              <AU st="str" id="1" et="str">   (что означают эти атрибуты?  Описывают единицу сверки)
+                <B s="str" u="str" r="str"></B>   (что означают эти атрибуты? – тоже какое-то отношение к единице сверки)
+              </AU>
+            </Outpck>
+
+          </Quality>
+        </NOMINAL>
+
+      </USER>
+
+    </SSM>
+	
+
+
+  </SSMS>
+
+</BNList>

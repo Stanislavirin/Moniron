@@ -1,0 +1,87 @@
+<BNList xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+ <TransMode>только номера</TransMode>
+ <SprDenoms>
+  <SprDenom modify="NO" value="5000" year="2005" denomid="1"/>
+  <SprDenom modify="NO" value="1000" year="2002" denomid="2"/>
+  <SprDenom modify="NO" value="50" year="2005" denomid="3"/>
+ </SprDenoms>
+ <SprQualities>
+  <SprQuality qualityName="bad" qualityId="1"/>
+  <SprQuality qualityName="normal" qualityId="2"/>
+  <SprQuality qualityName="good" qualityId="3"/>
+ </SprQualities>
+ <Totals>
+  <TotalFit>0</TotalFit>
+  <TotalUnfit>0</TotalUnfit>
+  <TotalShred>1</TotalShred>
+  <TotalReject>0</TotalReject>
+ </Totals>
+ <SSMS>
+  <SSM ssmName="Оператор">
+   <USER>
+    <NOMINAL did="50">
+     <Quality qualityName="normal">
+      <Outpck oid="1">
+       <AU et="04121915534" st="041219155257" id="0412191552570">
+        <B r="-" u="-" s="-"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="50">
+     <Quality qualityName="normal">
+      <Outpck oid="1"/>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="50">
+     <Quality qualityName="normal">
+      <Outpck oid="1"/>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="50">
+     <Quality qualityName="normal">
+      <Outpck oid="1"/>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="50">
+     <Quality qualityName="normal">
+      <Outpck oid="1"/>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="50">
+     <Quality qualityName="normal">
+      <Outpck oid="1"/>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="50">
+     <Quality qualityName="normal">
+      <Outpck oid="1"/>
+     </Quality>
+    </NOMINAL>
+   </USER>
+   <USER>
+    <NOMINAL did="3">
+     <Quality qualityName="normal">
+      <Outpck oid="1">
+       <AU et="041219165237" st="041219165230" id="0412191652300">
+        <B r="-" u="-" s="-"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+   </USER>
+  </SSM>
+ </SSMS>
+</BNList>

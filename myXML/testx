@@ -1,0 +1,19 @@
+<BNList xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+ <TransMode>ssssss</TransMode>
+ <SprDenoms>
+  <SprDenom year="2005" value="5000" denomid="1" modify="NO"/>
+  <SprDenom year="2002" value="1000" denomid="1" modify="NO"/>
+  <SprDenom year="2005" value="500" denomid="1" modify="NO"/>
+ </SprDenoms>
+ <SprQualities>
+  <SprQuality qualityName="bad" qualityId="1"/>
+  <SprQuality qualityName="normal" qualityId="2"/>
+  <SprQuality qualityName="good" qualityId="3"/>
+ </SprQualities>
+ <Totals>
+  <TotalFit>0</TotalFit>
+  <TotalUnfit>0</TotalUnfit>
+  <TotalShred>0</TotalShred>
+  <TotalReject>0</TotalReject>
+ </Totals>
+</BNList>

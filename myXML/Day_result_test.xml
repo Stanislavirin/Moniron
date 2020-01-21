@@ -1,0 +1,63 @@
+<BNList xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+ <TransMode>только номера</TransMode>
+ <SprDenoms>
+  <SprDenom value="5000" modify="NO" denomid="1" year="2005"/>
+  <SprDenom value="1000" modify="NO" denomid="1" year="2002"/>
+  <SprDenom value="500" modify="NO" denomid="1" year="2005"/>
+ </SprDenoms>
+ <SprQualities>
+  <SprQuality qualityId="1" qualityName="bad"/>
+  <SprQuality qualityId="2" qualityName="normal"/>
+  <SprQuality qualityId="3" qualityName="good"/>
+ </SprQualities>
+ <Totals>
+  <TotalFit>0</TotalFit>
+  <TotalUnfit>0</TotalUnfit>
+  <TotalShred>0</TotalShred>
+  <TotalReject>0</TotalReject>
+ </Totals>
+ <SSMS>
+  <SSM ssmName="Алекс">
+   <USER>
+    <NOMINAL did="1">
+     <Quality qualityName="normal">
+      <Outpck oid="1">
+       <AU et="str" id="1" st="str">
+        <B s="str" r="str" u="str"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+   </USER>
+  </SSM>
+  <SSM ssmName="Паша">
+   <USER>
+    <NOMINAL did="1">
+     <Quality qualityName="normal">
+      <Outpck oid="1">
+       <AU et="str" id="1" st="str">
+        <B s="str" r="str" u="str"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+    <NOMINAL did="2">
+     <Quality qualityName="bad">
+      <Outpck oid="1">
+       <AU et="str" id="1" st="str">
+        <B s="str" r="str" u="str"/>
+       </AU>
+      </Outpck>
+     </Quality>
+     <Quality qualityName="normal">
+      <Outpck oid="2">
+       <AU et="str" id="1" st="str">
+        <B s="str" r="str" u="str"/>
+       </AU>
+      </Outpck>
+     </Quality>
+    </NOMINAL>
+   </USER>
+  </SSM>
+ </SSMS>
+</BNList>
