@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PrintForm</class>
+ <widget class="QWidget" name="PrintForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>430</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>430</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>246</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="autoScroll">
+    <bool>false</bool>
+   </property>
+   <property name="showGrid">
+    <bool>false</bool>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Категория</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Номинал</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Кол-во</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Сумма</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>Шредер</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>RUB 500</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>57</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>43500.00</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>Шредер</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>RUB 500-04</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>96</string>
+    </property>
+   </item>
+   <item row="1" column="3">
+    <property name="text">
+     <string>48000.00</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>Шредер</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>RUB 500-10</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>2975</string>
+    </property>
+   </item>
+   <item row="2" column="3">
+    <property name="text">
+     <string>1487500.00</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>483</y>
+     <width>412</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>100</number>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>Итог</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>Итог</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>3158</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>1579000.00</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>140</y>
+     <width>104</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>258</width>
+     <height>225</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Машинный протокол</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>print</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="autoScroll">
+       <bool>false</bool>
+      </property>
+      <property name="showGrid">
+       <bool>false</bool>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::NoPen</enum>
+      </property>
+      <property name="cornerButtonEnabled">
+       <bool>true</bool>
+      </property>
+      <attribute name="horizontalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>200</number>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string/>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string/>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>Машина</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>163503257</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>ID машины</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>3257</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>Номер протокола</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>2019081944</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>Начало</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>19.08.2019 08.43.26</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>Индекс</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>4</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>Время формирования</string>
+       </property>
+      </item>
+      <item row="5" column="1">
+       <property name="text">
+        <string>19.08.2019 14.54.06</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

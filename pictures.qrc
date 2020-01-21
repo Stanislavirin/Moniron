@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/pictures">
+        <file>img/NoConnection.png</file>
+        <file>img/YesConnection.png</file>
+        <file>img/InfraSpectorPic.png</file>
+        <file>img/Video.png</file>
+        <file>img/WhiteSpectorPic.png</file>
+    </qresource>
+</RCC>
